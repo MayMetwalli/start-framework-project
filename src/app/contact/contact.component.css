@@ -1,0 +1,38 @@
+.bg-color{
+    background-color: #1ABC9C;
+}
+.contact-font{
+    font-size: 40px;
+    font-weight: 700;
+    color: #2C3E50;
+}
+
+.line {
+    width: 80px;
+    height: 4px;
+    background-color: #2C3E50;
+    
+  }
+
+  input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: transparent !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.377) !important;
+    
+  }
+  input{
+    border: transparent !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.377) !important;
+  }
+
+  .btn{
+    background-color: #1ABC9C !important;
+    position: relative;
+    left: 30%;
+  }
+
+  .contact-form{
+    width: 40%;
+  }
+

@@ -1,0 +1,21 @@
+.bg-color{
+    background-color: #2C3E50;
+}
+.footer-text{
+    font-size: 28px;
+    font-weight: 500;
+}
+.footer-icons i{
+    border: 1px solid white ;
+    padding: 10px;
+    font-size: 15px ;
+    border-radius: 50%;
+}
+.footer{
+    padding-block: 60px;
+    margin: 0;
+}
+.copyright{
+    background-color: #1A252F;
+    padding-block: 30px;
+}

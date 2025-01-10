@@ -1,0 +1,56 @@
+.portfolio-font{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.line {
+    width: 80px;
+    height: 4px;
+    
+  }
+
+.portfolio-font{
+    font-size: 40px;
+    font-weight: 700;
+    color: #2C3E50;
+}
+
+.line {
+    width: 80px;
+    height: 4px;
+    background-color: #2C3E50;
+    
+  }
+
+.portfolio-img{
+    position: relative;
+    
+}  
+
+.portfolio-card{
+    background-color: #1abc9cd2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.3s ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    i{
+        font-size: 80px;
+
+    }
+}
+.portfolio-img:hover .portfolio-card{
+    opacity: 1;  
+    visibility: visible;
+
+}
+
+.modal-content img{
+    margin: auto;
+}
