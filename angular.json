@@ -16,6 +16,7 @@
             "outputPath": "dist/start-framework-project",
             "index": "src/index.html",
             "browser": "src/main.ts",
+            "baseHref": "start-framework-project",
             "polyfills": [
               "zone.js"
             ],
@@ -99,6 +100,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
